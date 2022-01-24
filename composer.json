@@ -1,0 +1,23 @@
+{
+    "name": "lucas/gerenciarpessoas",
+    "description": "Aplicativo destinado ao gerenciamento de pessoas",
+    "type": "project",
+    "license": "owner",
+    "autoload": {
+        "psr-4": {
+            "Lucas\\Gerenciarpessoas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LucasRibeiro92",
+            "email": "lucasc.ribeiroo@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "doctrine/orm": "^2.11",
+        "symfony/cache": "^5.4",
+        "doctrine/annotations": "^1.13"
+    }
+}
