@@ -1,9 +1,6 @@
 <?php
 
-use Lucas\Gerenciarpessoas\Controller\FormularioNovaPessoa;
-use Lucas\Gerenciarpessoas\Controller\InterfaceControlRequire;
-use Lucas\Gerenciarpessoas\Controller\ListarPessoas;
-use Lucas\Gerenciarpessoas\Controller\SalvarPessoa;
+use Lucas\Gerenciarpessoas\Controller\{FormularioNovaPessoa, InterfaceControlRequire, ListarPessoas, SalvarPessoa};
 use Lucas\Gerenciarpessoas\Model\Pessoa;
 
 require __DIR__ . '/../vendor/autoload.php';
